@@ -3,7 +3,8 @@ package com.patelsamarth.DsAndAlgo;
 public class recursion_string_reverse {
     public static void main(String[] args) {
         recursion_string_reverse ref = new recursion_string_reverse();
-        String question = "ABCD";
+        String question = "abcd";
+        question = question.toUpperCase();
         System.out.println(ref.reverseString(question));
     }
 
